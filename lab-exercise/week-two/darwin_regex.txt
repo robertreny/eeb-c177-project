@@ -1,0 +1,15 @@
+1. \b[sS]\w+\b
+
+2. \b\w+\b\.
+
+3. [A-Za-z0-9\:\,\-\;\'\"\\’\s)(]+[\.\?]
+
+4. (How)[A-Za-z,:;'"()\s]+(variation)
+
+Extra credit: ^Natural|(?<=[\.\?]\s)[A-Za-z,:;'"()]+(?=\s)
+I used the look behind and look ahead commands to specify a selection coming 
+after a . or a ? and a space and before a space. The selection involved any 
+letters since no first word had numbers, including punctuation. The first word
+ was not selected so I added an or statement to the beginning to select 
+Natural. The ^ worked to select that Natural because the whole paragraph is 
+being treated as a string so only the first "Natural" was picked up. 

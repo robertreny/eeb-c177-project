@@ -1,0 +1,721 @@
+Steps for homework 1
+ase) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class assignments
+bash: cd: too many arguments
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ ls
+class-assignments  lab-exercise
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class-assignments
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ mv ~/Downloads/data-shell.zip ~/Developer/repos/eeb-c177-homework/class-assignments/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ ls
+class-exercises_1-14-2020  data-shell.zip
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ cd data-shell.zip
+bash: cd: data-shell.zip: Not a directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ unzip shell.zip
+unzip:  cannot find or open shell.zip, shell.zip.zip or shell.zip.ZIP.
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ unzip data-shell.zip
+Archive:  data-shell.zip
+   creating: data-shell/
+  inflating: data-shell/pizza.cfg    
+  inflating: data-shell/.bash_profile  
+   creating: data-shell/molecules/
+  inflating: data-shell/molecules/ethane.pdb  
+  inflating: data-shell/molecules/cubane.pdb  
+  inflating: data-shell/molecules/propane.pdb  
+  inflating: data-shell/molecules/pentane.pdb  
+  inflating: data-shell/molecules/methane.pdb  
+  inflating: data-shell/molecules/octane.pdb  
+   creating: data-shell/north-pacific-gyre/
+   creating: data-shell/north-pacific-gyre/2012-07-03/
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01736A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE02040A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01751B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE02040B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01843B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01978B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE02040Z.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01729B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01729A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01812A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/goostats  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01978A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01751A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/goodiff  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE02043B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE02043A.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE02018B.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01971Z.txt  
+  inflating: data-shell/north-pacific-gyre/2012-07-03/NENE01843A.txt  
+  inflating: data-shell/notes.txt    
+   creating: data-shell/data/
+  inflating: data-shell/data/salmon.txt  
+  inflating: data-shell/data/amino-acids.txt  
+  inflating: data-shell/data/sunspot.txt  
+  inflating: data-shell/data/animals.txt  
+   creating: data-shell/data/pdb/
+  inflating: data-shell/data/pdb/nerol.pdb  
+  inflating: data-shell/data/pdb/methanol.pdb  
+  inflating: data-shell/data/pdb/ethane.pdb  
+  inflating: data-shell/data/pdb/strychnine.pdb  
+  inflating: data-shell/data/pdb/cubane.pdb  
+  inflating: data-shell/data/pdb/benzaldehyde.pdb  
+  inflating: data-shell/data/pdb/camphene.pdb  
+  inflating: data-shell/data/pdb/propane.pdb  
+  inflating: data-shell/data/pdb/heme.pdb  
+  inflating: data-shell/data/pdb/cyclobutane.pdb  
+  inflating: data-shell/data/pdb/lactic-acid.pdb  
+  inflating: data-shell/data/pdb/mustard.pdb  
+  inflating: data-shell/data/pdb/tyrian-purple.pdb  
+  inflating: data-shell/data/pdb/testosterone.pdb  
+  inflating: data-shell/data/pdb/pentane.pdb  
+  inflating: data-shell/data/pdb/lsd.pdb  
+  inflating: data-shell/data/pdb/maltose.pdb  
+  inflating: data-shell/data/pdb/lactose.pdb  
+  inflating: data-shell/data/pdb/lanoxin.pdb  
+  inflating: data-shell/data/pdb/pyridoxal.pdb  
+  inflating: data-shell/data/pdb/piperine.pdb  
+  inflating: data-shell/data/pdb/thiamine.pdb  
+  inflating: data-shell/data/pdb/styrene.pdb  
+  inflating: data-shell/data/pdb/menthol.pdb  
+  inflating: data-shell/data/pdb/glycol.pdb  
+  inflating: data-shell/data/pdb/quinine.pdb  
+  inflating: data-shell/data/pdb/ethanol.pdb  
+  inflating: data-shell/data/pdb/sucrose.pdb  
+  inflating: data-shell/data/pdb/ascorbic-acid.pdb  
+  inflating: data-shell/data/pdb/methane.pdb  
+  inflating: data-shell/data/pdb/cyclopropane.pdb  
+  inflating: data-shell/data/pdb/cinnamaldehyde.pdb  
+  inflating: data-shell/data/pdb/morphine.pdb  
+  inflating: data-shell/data/pdb/norethindrone.pdb  
+  inflating: data-shell/data/pdb/vitamin-a.pdb  
+  inflating: data-shell/data/pdb/citronellal.pdb  
+  inflating: data-shell/data/pdb/cholesterol.pdb  
+  inflating: data-shell/data/pdb/aldrin.pdb  
+  inflating: data-shell/data/pdb/vanillin.pdb  
+  inflating: data-shell/data/pdb/ethylcyclohexane.pdb  
+  inflating: data-shell/data/pdb/tuberin.pdb  
+  inflating: data-shell/data/pdb/mint.pdb  
+  inflating: data-shell/data/pdb/cyclohexanol.pdb  
+  inflating: data-shell/data/pdb/codeine.pdb  
+  inflating: data-shell/data/pdb/octane.pdb  
+  inflating: data-shell/data/pdb/tnt.pdb  
+  inflating: data-shell/data/pdb/ammonia.pdb  
+  inflating: data-shell/data/pdb/vinyl-chloride.pdb  
+  inflating: data-shell/data/planets.txt  
+  inflating: data-shell/data/morse.txt  
+   creating: data-shell/data/animal-counts/
+  inflating: data-shell/data/animal-counts/animals.txt  
+   creating: data-shell/data/elements/
+  inflating: data-shell/data/elements/Sb.xml  
+  inflating: data-shell/data/elements/Eu.xml  
+  inflating: data-shell/data/elements/As.xml  
+  inflating: data-shell/data/elements/Br.xml  
+  inflating: data-shell/data/elements/F.xml  
+  inflating: data-shell/data/elements/Lr.xml  
+  inflating: data-shell/data/elements/Y.xml  
+  inflating: data-shell/data/elements/Sn.xml  
+  inflating: data-shell/data/elements/Kr.xml  
+  inflating: data-shell/data/elements/Ho.xml  
+  inflating: data-shell/data/elements/Sm.xml  
+  inflating: data-shell/data/elements/Fr.xml  
+  inflating: data-shell/data/elements/Fe.xml  
+  inflating: data-shell/data/elements/Tb.xml  
+  inflating: data-shell/data/elements/Pb.xml  
+  inflating: data-shell/data/elements/Bk.xml  
+  inflating: data-shell/data/elements/Np.xml  
+  inflating: data-shell/data/elements/Ni.xml  
+  inflating: data-shell/data/elements/Rb.xml  
+  inflating: data-shell/data/elements/Rh.xml  
+  inflating: data-shell/data/elements/Zn.xml  
+  inflating: data-shell/data/elements/Sc.xml  
+  inflating: data-shell/data/elements/Mn.xml  
+  inflating: data-shell/data/elements/Fm.xml  
+  inflating: data-shell/data/elements/Am.xml  
+  inflating: data-shell/data/elements/Au.xml  
+  inflating: data-shell/data/elements/C.xml  
+  inflating: data-shell/data/elements/Ca.xml  
+  inflating: data-shell/data/elements/Ne.xml  
+  inflating: data-shell/data/elements/Hg.xml  
+  inflating: data-shell/data/elements/Ra.xml  
+  inflating: data-shell/data/elements/Cl.xml  
+  inflating: data-shell/data/elements/Li.xml  
+  inflating: data-shell/data/elements/Tm.xml  
+  inflating: data-shell/data/elements/Be.xml  
+  inflating: data-shell/data/elements/Pr.xml  
+  inflating: data-shell/data/elements/He.xml  
+  inflating: data-shell/data/elements/Es.xml  
+  inflating: data-shell/data/elements/Cf.xml  
+  inflating: data-shell/data/elements/Pd.xml  
+  inflating: data-shell/data/elements/Se.xml  
+  inflating: data-shell/data/elements/H.xml  
+  inflating: data-shell/data/elements/Nd.xml  
+  inflating: data-shell/data/elements/S.xml  
+  inflating: data-shell/data/elements/Cu.xml  
+  inflating: data-shell/data/elements/Pt.xml  
+  inflating: data-shell/data/elements/La.xml  
+  inflating: data-shell/data/elements/Lu.xml  
+  inflating: data-shell/data/elements/Ce.xml  
+  inflating: data-shell/data/elements/Ta.xml  
+  inflating: data-shell/data/elements/Po.xml  
+  inflating: data-shell/data/elements/Al.xml  
+  inflating: data-shell/data/elements/Ar.xml  
+  inflating: data-shell/data/elements/Pm.xml  
+  inflating: data-shell/data/elements/Bi.xml  
+  inflating: data-shell/data/elements/Tl.xml  
+  inflating: data-shell/data/elements/U.xml  
+  inflating: data-shell/data/elements/Cd.xml  
+  inflating: data-shell/data/elements/Zr.xml  
+  inflating: data-shell/data/elements/At.xml  
+  inflating: data-shell/data/elements/Xe.xml  
+  inflating: data-shell/data/elements/Rn.xml  
+  inflating: data-shell/data/elements/Gd.xml  
+  inflating: data-shell/data/elements/In.xml  
+  inflating: data-shell/data/elements/Ag.xml  
+  inflating: data-shell/data/elements/K.xml  
+  inflating: data-shell/data/elements/W.xml  
+  inflating: data-shell/data/elements/Cs.xml  
+  inflating: data-shell/data/elements/N.xml  
+  inflating: data-shell/data/elements/Mg.xml  
+  inflating: data-shell/data/elements/Tc.xml  
+  inflating: data-shell/data/elements/Pu.xml  
+  inflating: data-shell/data/elements/Co.xml  
+  inflating: data-shell/data/elements/Os.xml  
+  inflating: data-shell/data/elements/Ac.xml  
+  inflating: data-shell/data/elements/Cm.xml  
+  inflating: data-shell/data/elements/Na.xml  
+  inflating: data-shell/data/elements/Yb.xml  
+  inflating: data-shell/data/elements/Sr.xml  
+  inflating: data-shell/data/elements/Ru.xml  
+  inflating: data-shell/data/elements/Te.xml  
+  inflating: data-shell/data/elements/Ti.xml  
+  inflating: data-shell/data/elements/Dy.xml  
+  inflating: data-shell/data/elements/Md.xml  
+  inflating: data-shell/data/elements/Ge.xml  
+  inflating: data-shell/data/elements/Cr.xml  
+  inflating: data-shell/data/elements/Ga.xml  
+  inflating: data-shell/data/elements/Er.xml  
+  inflating: data-shell/data/elements/Hf.xml  
+  inflating: data-shell/data/elements/Re.xml  
+  inflating: data-shell/data/elements/O.xml  
+  inflating: data-shell/data/elements/B.xml  
+  inflating: data-shell/data/elements/Mo.xml  
+  inflating: data-shell/data/elements/Si.xml  
+  inflating: data-shell/data/elements/I.xml  
+  inflating: data-shell/data/elements/Pa.xml  
+  inflating: data-shell/data/elements/Ir.xml  
+  inflating: data-shell/data/elements/No.xml  
+  inflating: data-shell/data/elements/Ba.xml  
+  inflating: data-shell/data/elements/P.xml  
+  inflating: data-shell/data/elements/Nb.xml  
+  inflating: data-shell/data/elements/Th.xml  
+  inflating: data-shell/data/elements/V.xml  
+   creating: data-shell/writing/
+  inflating: data-shell/writing/haiku.txt  
+   creating: data-shell/writing/tools/
+ extracting: data-shell/writing/tools/stats  
+  inflating: data-shell/writing/tools/format  
+   creating: data-shell/writing/tools/old/
+ extracting: data-shell/writing/tools/old/oldtool  
+   creating: data-shell/writing/data/
+  inflating: data-shell/writing/data/two.txt  
+  inflating: data-shell/writing/data/one.txt  
+  inflating: data-shell/writing/data/LittleWomen.txt  
+   creating: data-shell/writing/thesis/
+ extracting: data-shell/writing/thesis/empty-draft.md  
+  inflating: data-shell/solar.pdf    
+   creating: data-shell/creatures/
+  inflating: data-shell/creatures/unicorn.dat  
+  inflating: data-shell/creatures/basilisk.dat  
+  inflating: data-shell/creatures/minotaur.dat  
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ ls
+class-exercises_1-14-2020  data-shell  data-shell.zip
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ cd data-shell
+(base) eebc177student@eebc177student-VirtualBox:~/Devel(base) eebc177student@eebc177student-VirtualBox:~/Develo
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignme(base) eebc177student@eebc177student-VirtualBox:~/irtualBox:~/Developer/repos/eeb-c177-hom(base) eebc177student@eebc177student-VirtualBox:7student-VirtualBox:~/Developer/repos/eeb-c177-assignments(base) eebc177student@eebc177student-VirtualBox:Box:~/Developer/repos/eeb-c177-homew[0work/class-assignments/data-shelleebc(base) eebc177student@eebc177student-VirtualBoxr/repos/eeb-c177-homework/cla177-homework/(base) eebc177student@eebc177student-VirtualBox:77student-VirtualBox:~/Develop7-homework/class-assignments/data-shelleebc177student@e(base) eebc177student@eebc177student-VirtualBox: 77-homework/class-assignments/dhomework/class-assignments/data-shelleebc177s(base) eebc177student@eebc177student-VirtualBox:os/eeb-c177-homework/class-assignments/datass-assignments/data-shelleebc177stude(base) eebc177student@eebc177student-VirtualBox:eb-c177-homework/class-assignments/data-shell$-assignments/data-she(base) eebc177student@eebc177student-VirtualBox:~loper/repos/eeb-c177-homework/class-assignmentsssignments/data-shellee(base) eebc177student@eebc177student-VirtualBox:~//repos/eeb-c177-homework/class-assignments/data-ignments/data-shelleebc17(base) eebc177student@eebc177student-VirtualBox:~/Ds/eeb-c177-homework/class(base) eebc177student@eebc177student-VirtualBox:~/Deent@eebc177student-Virtual(base) eebc177student@eebc177student-VirtualBox:~/Dev@eebc177student-VirtualBox:~/Developer/repos/eeb-c1(base) eebc177student@eebc177student-VirtualBox:~/De(base) eebc177student@eebc(base) eebc177student@eebc177stude(base) eebc177student@eebc1(base) eebc177student@eeb(base) eebc177student@(base) eebc177student@(base) eebc177student@(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ $ pwd
+$: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ pwd
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/data-shell
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls -F
+creatures/  molecules/           notes.txt  solar.pdf
+data/       north-pacific-gyre/  pizza.cfg  writing/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf
+data       north-pacific-gyre  pizza.cfg  writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ mkdir thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls -F
+creatures/  molecules/           notes.txt  solar.pdf  writing/
+data/       north-pacific-gyre/  pizza.cfg  thesis/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls -F thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ nano draft.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ ls
+draft.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ touch my_file.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ ls -l
+total 4
+-rw-r--r-- 1 eebc177student eebc177student 66 Jan 15 12:19 draft.txt
+-rw-r--r-- 1 eebc177student eebc177student  0 Jan 15 12:20 my_file.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  writing
+data       north-pacific-gyre  pizza.cfg  thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ mv thesis/draft.txt thesis/quotes.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls thesis
+my_file.txt  quotes.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ mv thesis/quotes.txt . 
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls thesis
+my_file.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls quotes.txt
+quotes.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ lf -F 
+lf: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls -F analyzed/ raw/
+ls: cannot access 'analyzed/': No such file or directory
+ls: cannot access 'raw/': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  morse.txt  planets.txt  sunspot.txt
+animal-counts    elements     pdb        salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ $ ls -F
+$: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$  analyzed/ raw/
+bash: analyzed/: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ $ ls -F analyzed
+$: command not found
+
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ fructose.dat glucose.dat maltose.dat sucrose.dat
+fructose.dat: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ $ cd analyzed
+$: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls sucrose.dat
+ls: cannot access 'sucrose.dat': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls -F analyzed/raw/
+ls: cannot access 'analyzed/raw/': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ ls
+my_file.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ cd ...
+bash: cd: ...: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ cd molecules
+bash: cd: molecules: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ cd molecules
+bash: cd: molecules: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ ls
+my_file.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd molecules
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  morse.txt  planets.txt  sunspot.txt
+animal-counts    elements     pdb        salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd elements
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/elements$ ls
+Ac.xml  Bk.xml  Cs.xml  Ga.xml  Kr.xml  Nb.xml  Pd.xml  Rn.xml  Tb.xml  Yb.xml
+Ag.xml  Br.xml  Cu.xml  Gd.xml  K.xml   Nd.xml  Pm.xml  Ru.xml  Tc.xml  Y.xml
+Al.xml  B.xml   C.xml   Ge.xml  La.xml  Ne.xml  Po.xml  Sb.xml  Te.xml  Zn.xml
+Am.xml  Ca.xml  Dy.xml  He.xml  Li.xml  Ni.xml  Pr.xml  Sc.xml  Th.xml  Zr.xml
+Ar.xml  Cd.xml  Er.xml  Hf.xml  Lr.xml  No.xml  Pt.xml  Se.xml  Ti.xml
+As.xml  Ce.xml  Es.xml  Hg.xml  Lu.xml  Np.xml  Pu.xml  Si.xml  Tl.xml
+At.xml  Cf.xml  Eu.xml  Ho.xml  Md.xml  N.xml   P.xml   Sm.xml  Tm.xml
+Au.xml  Cl.xml  Fe.xml  H.xml   Mg.xml  Os.xml  Ra.xml  Sn.xml  U.xml
+Ba.xml  Cm.xml  Fm.xml  In.xml  Mn.xml  O.xml   Rb.xml  Sr.xml  V.xml
+Be.xml  Co.xml  Fr.xml  Ir.xml  Mo.xml  Pa.xml  Re.xml  S.xml   W.xml
+Bi.xml  Cr.xml  F.xml   I.xml   Na.xml  Pb.xml  Rh.xml  Ta.xml  Xe.xml
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/elements$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/pdb$ ls
+aldrin.pdb            glycol.pdb         pentane.pdb
+ammonia.pdb           heme.pdb           piperine.pdb
+ascorbic-acid.pdb     lactic-acid.pdb    propane.pdb
+benzaldehyde.pdb      lactose.pdb        pyridoxal.pdb
+camphene.pdb          lanoxin.pdb        quinine.pdb
+cholesterol.pdb       lsd.pdb            strychnine.pdb
+cinnamaldehyde.pdb    maltose.pdb        styrene.pdb
+citronellal.pdb       menthol.pdb        sucrose.pdb
+codeine.pdb           methane.pdb        testosterone.pdb
+cubane.pdb            methanol.pdb       thiamine.pdb
+cyclobutane.pdb       mint.pdb           tnt.pdb
+cyclohexanol.pdb      morphine.pdb       tuberin.pdb
+cyclopropane.pdb      mustard.pdb        tyrian-purple.pdb
+ethane.pdb            nerol.pdb          vanillin.pdb
+ethanol.pdb           norethindrone.pdb  vinyl-chloride.pdb
+ethylcyclohexane.pdb  octane.pdb         vitamin-a.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/pdb$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ mv surcrose.dat maltos.dat ../raw
+mv: target '../raw' is not a directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ ls
+data  haiku.txt  thesis  tools
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/data$ ls
+LittleWomen.txt  one.txt  two.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/thesis$ ls
+empty-draft.md
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/thesis$ cd.
+
+Command 'cd.' not found, did you mean:
+
+  command 'cd5' from deb cd5
+  command 'cdw' from deb cdw
+  command 'cdi' from deb cdo
+  command 'cdo' from deb cdo
+  command 'cdp' from deb irpas
+  command 'cdb' from deb tinycdb
+  command 'cde' from deb cde
+  command 'cdv' from deb codeville
+
+Try: sudo apt install <deb name
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/thesis$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  morse.txt  planets.txt  sunspot.txt
+animal-counts    elements     pdb        salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ mkdir raw
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd molecules
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  morse.txt  planets.txt  salmon.txt
+animal-counts    elements     pdb        raw          sunspot.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd elements
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/elements$ ls
+Ac.xml  Bk.xml  Cs.xml  Ga.xml  Kr.xml  Nb.xml  Pd.xml  Rn.xml  Tb.xml  Yb.xml
+Ag.xml  Br.xml  Cu.xml  Gd.xml  K.xml   Nd.xml  Pm.xml  Ru.xml  Tc.xml  Y.xml
+Al.xml  B.xml   C.xml   Ge.xml  La.xml  Ne.xml  Po.xml  Sb.xml  Te.xml  Zn.xml
+Am.xml  Ca.xml  Dy.xml  He.xml  Li.xml  Ni.xml  Pr.xml  Sc.xml  Th.xml  Zr.xml
+Ar.xml  Cd.xml  Er.xml  Hf.xml  Lr.xml  No.xml  Pt.xml  Se.xml  Ti.xml
+As.xml  Ce.xml  Es.xml  Hg.xml  Lu.xml  Np.xml  Pu.xml  Si.xml  Tl.xml
+At.xml  Cf.xml  Eu.xml  Ho.xml  Md.xml  N.xml   P.xml   Sm.xml  Tm.xml
+Au.xml  Cl.xml  Fe.xml  H.xml   Mg.xml  Os.xml  Ra.xml  Sn.xml  U.xml
+Ba.xml  Cm.xml  Fm.xml  In.xml  Mn.xml  O.xml   Rb.xml  Sr.xml  V.xml
+Be.xml  Co.xml  Fr.xml  Ir.xml  Mo.xml  Pa.xml  Re.xml  S.xml   W.xml
+Bi.xml  Cr.xml  F.xml   I.xml   Na.xml  Pb.xml  Rh.xml  Ta.xml  Xe.xml
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/elements$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd raw
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ ls
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  morse.txt  planets.txt  salmon.txt
+animal-counts    elements     pdb        raw          sunspot.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd molecules
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd north-pacific-gyre
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/north-pacific-gyre$ ls
+2012-07-03
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/north-pacific-gyre$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ ls
+class-exercises_1-14-2020  data-shell  data-shell.zip
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments$ cd data-shell
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  morse.txt  planets.txt  salmon.txt
+animal-counts    elements     pdb        raw          sunspot.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd amina-acids.txt
+bash: cd: amina-acids.txt: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ view amino-acids.txt
+
+[1]+  Stopped                 view amino-acids.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ mv amino-acids.txt ./raw
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+animal-counts  elements   pdb          raw         sunspot.txt
+animals.txt    morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd raw
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ ls
+amino-acids.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ cdp quotes.txt thesis/quotations.txt
+
+Command 'cdp' not found, but can be installed with:
+
+sudo apt install irpas
+
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ cp quotes.txt thesis/quotations.txtcp: cannot stat 'quotes.txt': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ ls
+amino-acids.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+animal-counts  elements   pdb          raw         sunspot.txt
+animals.txt    morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis
+data       north-pacific-gyre  pizza.cfg  solar.pdf   writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cp quotes.txt thesis/quotations.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls quotes.txt thesis/quotations.txt
+quotes.txt  thesis/quotations.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cp -r thesis thesis_backup
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls thesis thesis_backup
+thesis:
+my_file.txt  quotations.txt
+
+thesis_backup:
+my_file.txt  quotations.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  quotes.txt  thesis         writing
+data       north-pacific-gyre  pizza.cfg  solar.pdf   thesis_backup
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ rm quotes.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls quotes.txt
+ls: cannot access 'quotes.txt': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ rm -i thesis_backup/quotations.txt
+rm: remove regular file 'thesis_backup/quotations.txt'? Y
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ rm thesis
+rm: cannot remove 'thesis': Is a directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ mkdir backup
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cp amino-acids.txt animals.txt backup/
+cp: cannot stat 'amino-acids.txt': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ nano amino-acids.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cp amino-acids.txt animals.txt backup/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls -F 
+amino-acids.txt  animals.txt  elements/  pdb/         raw/        sunspot.txt
+animal-counts/   backup/      morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls -F backup
+amino-acids.txt  animals.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd molecules
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls *t*ane.pdb
+ethane.pdb  methane.pdb  octane.pdb  pentane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls ethane.*
+ethane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls ?thane.pdb
+ethane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd thesis_backup
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis_backup$ ls
+my_file.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/thesis_backup$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cp *dataset* backup/datasets
+cp: cannot stat '*dataset*': No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd backup
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ls
+amino-acids.txt  animals.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd  writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ ls
+data  haiku.txt  thesis  tools
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd thesis
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/thesis$ ls
+empty-draft.md
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/thesis$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd  tools
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/tools$ ls
+format  old  stats
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/tools$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/data$ ls
+LittleWomen.txt  one.txt  two.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$  cd..
+cd..: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/writing$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ view notes.txt
+
+[2]+  Stopped                 view notes.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd north-pacific-gyre
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/north-pacific-gyre$ ls
+2012-07-03
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/north-pacific-gyre$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd molecules
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd creatures
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ ls
+basilisk.dat  minotaur.dat  unicorn.dat
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd animals-counts
+bash: cd: animals-counts: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd animal-counts
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/animal-counts$ ls
+animals.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/animal-counts$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/pdb$ ls
+aldrin.pdb            glycol.pdb         pentane.pdb
+ammonia.pdb           heme.pdb           piperine.pdb
+ascorbic-acid.pdb     lactic-acid.pdb    propane.pdb
+benzaldehyde.pdb      lactose.pdb        pyridoxal.pdb
+camphene.pdb          lanoxin.pdb        quinine.pdb
+cholesterol.pdb       lsd.pdb            strychnine.pdb
+cinnamaldehyde.pdb    maltose.pdb        styrene.pdb
+citronellal.pdb       menthol.pdb        sucrose.pdb
+codeine.pdb           methane.pdb        testosterone.pdb
+cubane.pdb            methanol.pdb       thiamine.pdb
+cyclobutane.pdb       mint.pdb           tnt.pdb
+cyclohexanol.pdb      morphine.pdb       tuberin.pdb
+cyclopropane.pdb      mustard.pdb        tyrian-purple.pdb
+ethane.pdb            nerol.pdb          vanillin.pdb
+ethanol.pdb           norethindrone.pdb  vinyl-chloride.pdb
+ethylcyclohexane.pdb  octane.pdb         vitamin-a.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/pdb$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd raw
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ ls
+amino-acids.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/raw$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd backup
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ls
+amino-acids.txt  animals.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-23-calibration.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-23-dataset1.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-23-dataset2.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-23-dataset_overview.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-26-calibration.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-26-dataset1.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-26-dataset2.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-10-26-dataset_overview.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-11-23-calibration.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-11-23-dataset1.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-11-23-dataset2.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── 2015-11-23-dataset_overview.txt
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ├── backup
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ │   ├── calibration
+│: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ │   └── datasets
+│: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ └── send_to_bob
+└──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$     ├── all_datasets_created_on_a_23rd
+├──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$     └── all_november_files
+└──: command not found
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ls
+amino-acids.txt  animals.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ ls -F
+amino-acids.txt  animals.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data/backup$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd molecules
+bash: cd: molecules: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ ls
+amino-acids.txt  animals.txt  elements   pdb          raw         sunspot.txt
+animal-counts    backup       morse.txt  planets.txt  salmon.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd molecules
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ ls
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/molecules$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ ls
+creatures  molecules           notes.txt  solar.pdf  thesis_backup
+data       north-pacific-gyre  pizza.cfg  thesis     writing
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell$ cd creatures
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ ls
+basilisk.dat  minotaur.dat  unicorn.dat
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ mkdir analyzed
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ mv *.dat analyzed
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ ls analyzed
+basilisk.dat  minotaur.dat  unicorn.dat
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-assignments/data-shell/creatures$ cd ..
+
