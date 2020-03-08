@@ -2,7 +2,7 @@
 \documentclass[letterpaper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\graphicspath{{images/}}
+\graphicspath{{./}}
 \usepackage{color}
 \usepackage{listings}
 %\usepackage{Times} %changes font if you want 
@@ -24,12 +24,12 @@ diet condimentum velit, ut congue nisl. Curabitur quam magna, hendrerit placerat
 \listoffigures
 \newpage
 \section{Introduction}\
-Urban Heat Island (UHI) occurs due to the trapping of heat generated from urban structures as they absorb and re-radiate solar radiation and antrhopegenic heat sources. Heat re-readiated by urban haet structures plays the most important role in determined UHI (Memon RA). City size measured by population shows a strong relationship to the magnitude of UHI . UHI intensity under cloudless skies is related to the inverse of regional windspeed and the lograithm of the population (T.R. Oke). Increased heating due to climate change is associated with adverse health effects including lower birth rates (A. Barreca) and potentially compromised sperm function (K Sales). This study evaluates differential heating patterns across Los Angeles County to identify communities most at risk to UHI health effects. The methods used in this study would be applied to higher resolution data i.e. block by block of Los Angeles as opposed to the discrete monitoring stations obtained from the California Irrigation Management Information System (CIMIS)
+Urban Heat Island (UHI) occurs due to the trapping of heat generated from urban structures as they absorb and re-radiate solar radiation and antrhopegenic heat sources. Heat re-readiated by urban haet structures plays the most important role in determined UHI (Memon RA). City size measured by population shows a strong relationship to the magnitude of UHI . UHI intensity under cloudless skies is related to the inverse of regional windspeed and the lograithm of the population (T.R. Oke). Increased heating due to climate change is associated with adverse health effects including lower birth rates (A. Barreca) and potentially compromised sperm function (K Sales). This study evaluates differential heating patterns across Los Angeles County to identify communities most at risk to UHI health effects. The methods used in this study would be applied to higher resolution data i.e. block by block of Los Angeles as opposed to the discrete monitoring stations obtained from the California Irrigation Management Information System (CIMIS). 
 \section{Methods} %have to escape &
 
-\subsection {Discuss CIMIS}
+\subsection {CIMIS}
+CIMIS provides data from multiple stations throughout Los Angeles County and California. The data is comprised of meteorlogical data including solar irradiation, precipitation, soil temperature, and air temperature. The UHI effect is seen in elevated air temperatures at night as surfaces iradiate heat back to the atmosphere. 
 
-Fusce imperdiet condimentum velit, ut congue nisl. Curabitur quam magna, hendrerit placerat gravida quis, tempor sed sapien. Phasellus imperdiet leo nulla, et hendrerit enim elementum ut. Cras augue risus, mattis consectetur massa interdum, condimentum auctor ligula. Cras tortor ligula, consequat vestibulum felis eu, pulvinar venenatis eros. In tellus urna, consequat vel faucibus vitae, semper et nisl. Sed sollicitudin sed quam eu mollis. Curabitur ullamcorper, metus hendrerit faucibus imperdiet, justo justo dictum ipsum, eget auctor urna elit porta ipsum. Nam euismod finibus mi nec facilisis. Vivamus id enim sit amet urna maximus tincidunt nec in justo. Integer cursus, tortor non dignissim dictum, orci erat venenatis purus, molestie convallis nisi odio id arcu. Nulla nunc nibh, semper nec malesuada eget, elementum at mauris. Integer blandit ipsum maximus mattis feugiat. In hac habitasse platea dictumst.Fusce imperdiet condimentum velit, ut congue nisl. Curabitur quam magna, hendrerit placerat gravida quis, tempor sed sapien. Phasellus imperdiet leo nulla, et hendrerit enim elementum ut. Cras augue risus, mattis consectetur massa interdum, condimentum auctor ligula. Cras tortor ligula, consequat vestibulum felis eu, pulvinar venenatis eros. In tellus urna, consequat vel faucibus vitae, semper et nisl. Sed sollicitudin sed quam eu mollis. Curabitur ullamcorper, metus hendrerit faucibus imperdiet, justo justo dictum ipsum, eget auctor urna elit porta ipsum. Nam euismod finibus mi nec facilisis. Vivamus id enim sit amet urna maximus tincidunt nec in justo. Integer cursus, tortor non dignissim dictum, orci erat venenatis purus, molestie convallis nisi odio id arcu. Nulla nunc nibh, semper nec malesuada eget, elementum at mauris. Integer blandit ipsum maximus mattis feugiat. In hac habitasse platea dictumst.
 \subsection{Coding}
 \subsection{Mapping}
 
@@ -48,13 +48,15 @@ data = pd.read_csv('hourly(2).csv', error_bad_lines=False, parse_dates = [['Date
 
 def plotting_light_dark_tempscimis(filename, stationID):
     ''' Return plots of temp over time.
-    First loads in data, error_bad_lines = False ignores bad lines, parse_dates combines date and hour columns into single column
+    First loads in data, error_bad_lines = False ignores bad lines, 
+parse_dates combines date and hour columns into single column
     Second selects only data referring to stationID
     Creates two subsets from above using sol radiance > 0 or =0
     plots first using a empty fig
     First plot is air temp over time when solar irradiance is >0
     Second plot is air temp over time when solar irradiance <0
-    Third is the diffeernce between air and soil temp over time when solar irradiance <0
+    Third is the diffeernce between air and soil temp over time when 
+	solar irradiance <0
     
     @param filename = n-dimensional array of values
     @param stationID = stationID of location of interest
@@ -94,11 +96,29 @@ for row in data['Wind Dir (0-360)']:
     #that are three digits and in the hundreds, maybe needed if wind direction is very important 
 \end{lstlisting}
 \subsection{Mapping in R}
-I want to do a time series map of heating across LA or California. 
+In ggplot I made two types of graphs to try to show differences in heating. My first graph is a boxplot showing Air Temperature by the latitiude of the sensor because lattitude is related to temperature. The second graph is a geomtile ggplot that plots the Air Temp value at the lat/long coordinate. 
+\begin{lstlisting}
+ggplot(data = Jan2020, aes(x= lat, y = Air.Temp..F., group = lat)) 
++ geom_boxplot() + theme(axis.text=element_text(size=8)) #decreases
+ size of axis text + labs(y = "Air Temp (F)", x = "latitude") #group breaks 
+up the data by lattitudes, or any other unqiue identifier 
+
+ggplot(data = Jan2020, aes(x= lat, y = long)) + 
+geom_tile(aes(fill = Air.Temp..F.)) #fill provides the value of the tiles
+\end{lstlisting}
+
 \section{Results}
 Fusce imperdiet condimentum velit, ut congue nisl. Curabitur quam magna, hendrerit placerat gravida quis, tempor sed sapien. Phasellus imperdiet leo nulla, et hendrerit enim elementum ut. Cras augue risus, mattis consectetur massa interdum, condimentum auctor ligula. Cras tortor ligula, consequat vestibulum felis eu, pulvinar venenatis eros. In tellus urna, consequat vel faucibus vitae, semper et nisl. Sed sollicitudin sed quam eu mollis. Curabitur ullamcorper, metus hendrerit faucibus imperdiet, justo justo dictum ipsum, eget auctor urna elit porta ipsum. Nam euismod finibus mi nec facilisis. Vivamus id enim sit amet urna maximus tincidunt nec in justo. Integer cursus, tortor non dignissim dictum, orci erat venenatis purus, molestie convallis nisi odio id arcu. Nulla nunc nibh, semper nec malesuada eget, elementum at mauris. Integer blandit ipsum maximus mattis feugiat. In hac habitasse platea dictumst.Fusce imperdiet condimentum velit, ut congue nisl. Curabitur quam magna, hendrerit placerat gravida quis, tempor sed sapien. Phasellus imperdiet leo nulla, et hendrerit enim elementum ut. Cras augue risus, mattis consectetur massa interdum, condimentum auctor ligula. Cras tortor ligula, consequat vestibulum felis eu, pulvinar venenatis eros. In tellus urna, consequat vel faucibus vitae, semper et nisl. Sed sollicitudin sed quam eu mollis. Curabitur ullamcorper, metus hendrerit faucibus imperdiet, justo justo dictum ipsum, eget auctor urna elit porta ipsum. Nam euismod finibus mi nec facilisis. Vivamus id enim sit amet urna maximus tincidunt nec in justo. Integer cursus, tortor non dignissim dictum, orci erat venenatis purus, molestie convallis nisi odio id arcu. Nulla nunc nibh, semper nec malesuada eget, elementum at mauris. Integer blandit ipsum maximus mattis feugiat. In hac habitasse platea dictumst. 
 
 \begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\paperwidth]{Rplotgeomtile}
+%to move caption rearrange order of caption and graphics 
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\paperwidth]{Rplotbarplot}
 %to move caption rearrange order of caption and graphics 
 \end{figure}
 
